@@ -1,0 +1,18 @@
+# Street Network Generator Requirements
+# Python 3.7+
+
+# Core dependencies
+networkx>=2.2
+numpy>=1.16.0
+scipy>=1.2.0
+
+# Geospatial
+geopandas>=0.4.0
+shapely>=1.6.0
+pyproj>=2.0.0
+
+# OSM (optional for future reference extraction)
+osmnx>=0.10
+
+# Visualization (optional)
+matplotlib>=3.0.0

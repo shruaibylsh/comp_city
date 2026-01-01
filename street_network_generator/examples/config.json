@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "window_size_m": 500,
+  "syntax_recompute_interval": 80,
+  "candidate_per_step": 12,
+  "initial_temp": 5.0,
+  "cooling_rate": 0.997,
+  "min_iterations": 250,
+  "max_iterations": 2500,
+  "snap_tolerance_m": 1.5,
+  "min_seg_len_m": 12.0,
+  "max_seg_len_m": 90.0,
+  "weights": {
+    "morph_start": 1.0,
+    "morph_end": 0.7,
+    "syntax_start": 0.0,
+    "syntax_end": 0.3
+  },
+  "metric_weights": {
+    "degree_dist": 0.3,
+    "segment_length": 0.3,
+    "orientation": 0.15,
+    "density": 0.15,
+    "dead_end_ratio": 0.1
+  },
+  "syntax_weights": {
+    "mean_depth": 0.4,
+    "local_integration": 0.3,
+    "choice": 0.2,
+    "intelligibility": 0.1
+  },
+  "penalty_weights": {
+    "disconnected": 10.0,
+    "small_component": 5.0,
+    "boundary_dead_end": 2.0
+  },
+  "morph_divergence_threshold": 0.10,
+  "no_improvement_audits": 5,
+  "min_boundary_spines": 2,
+  "max_boundary_spines": 4,
+  "boundary_dead_end_distance_m": 30.0
+}
