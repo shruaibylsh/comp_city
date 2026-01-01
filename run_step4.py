@@ -26,11 +26,11 @@ print('✓ Output directories created')
 with open('outputs/data/reference_cities_data.pkl', 'rb') as f:
     reference_data = pickle.load(f)
 
-with open('outputs/generated/buildings/networks_with_buildings_20.pkl', 'rb') as f:
+with open('outputs/generated/networks/generated_networks_20.pkl', 'rb') as f:
     generated_networks = pickle.load(f)
 
 print('✓ Loaded reference data from Step 1')
-print(f'✓ Loaded {len(generated_networks)} networks with buildings from Step 3')
+print(f'✓ Loaded {len(generated_networks)} networks from Step 2')
 
 reference_cities = ['london', 'berlin', 'belgrade', 'torino']
 cities_str = ', '.join([c.upper() for c in reference_cities])
@@ -280,8 +280,7 @@ print('\nEach network now includes:')
 print('  - NetworkX graph')
 print('  - Node positions')
 print('  - Network metrics (morphology)')
-print('  - Building polygons')
-print('  - Building metrics')
 print('  - Space syntax metrics (NEW)')
 print('  - Generation parameters')
 print('\n✓ Step 4 complete!')
+print('\nNote: Building generation will be done later for the final selected network only.')
