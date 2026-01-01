@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "belgrade_parcels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32634" } },
+"features": [
+{ "type": "Feature", "properties": { "barrier": null, "landuse": "construction", "admin_level": null, "boundary": null, "type": null, "int_name": null, "name": null, "name:de": null, "name:en": null, "name:sr": null, "name:sr-Latn": null, "population": null, "population:census:2022": null, "population:date": null, "ref:RS:opstina": null, "source:population": null, "website": null, "wikidata": null, "wikipedia": null, "area": 665.54829976461065, "perimeter": 119.1774290955159, "compactness": 0.58884557691063832, "aspect_ratio": 1.9486489553300155, "parcel_id": "parcel_000" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 457653.191527052549645, 4962856.813598899170756 ], [ 457668.98737010487821, 4962863.719229601323605 ], [ 457674.507419148692861, 4962857.884046888910234 ], [ 457681.339958308788482, 4962864.048906650394201 ], [ 457695.507256473880261, 4962850.58056406583637 ], [ 457701.345281469228212, 4962844.998815728351474 ], [ 457679.094962883973494, 4962836.513711649924517 ], [ 457669.881233727675863, 4962845.77252918574959 ], [ 457664.644138902018312, 4962847.751076469197869 ], [ 457653.191527052549645, 4962856.813598899170756 ] ] ] } }
+]
+}

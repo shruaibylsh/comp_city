@@ -1,0 +1,10 @@
+Metric,"London, UK","Berlin, Germany","Belgrade, Serbia","Torino, Italy"
+Nodes,525.0,403.0,286.0,290.0
+Edges,1431.0,1105.0,802.0,787.0
+Street Length (m),28315.5,22541.3,21251.1,18675.8
+Street Density (m/km²),113262.1,90165.3,85004.4,74703.2
+Avg Segment (m),19.8,20.4,26.5,23.7
+Parcels,14.0,11.0,1.0,3.0
+Buildings,507.0,433.0,356.0,275.0
+Avg Building Area (m²),341.0,256.7,354.4,599.6
+Districts (distance),34.0,22.0,29.0,25.0
